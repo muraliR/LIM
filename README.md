@@ -15,13 +15,13 @@ This is a simple Ruby app to parse the page content and store its content using 
 
 1. Endpoint to receive the URL of the page, grab its content.
 
-	URL : http://localhost:3000/scrap?url=http://www.example.com
-	METHOD : GET
+	* URL : http://localhost:3000/scrap?url=http://www.example.com
+	* METHOD : GET
 
 2. Endpont to list the urls and content stored in the database
 
-	URL : http://localhost:3000/list
-	METHOD : GET
+	* URL : http://localhost:3000/list
+	* METHOD : GET
 
 
 
