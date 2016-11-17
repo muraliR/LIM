@@ -1,24 +1,27 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a simple Ruby app to parse the page content and store its content using the Rails framework.
 
-Things you may want to cover:
+##### To run the application do the following:
 
-* Ruby version
+1. Clone this repo.
+2. Run `bundle install`.
+3. Create a database with the username `lim_development` and provide the password of your choice.
+4. Run `rake db:create` to create a database.
+5. Run `rake db:migrate` to populate the tables in db.
+6. Run `rails s` to start a rails server.
 
-* System dependencies
+## API End points
 
-* Configuration
+1. Endpoint to receive the URL of the page, grab its content.
 
-* Database creation
+	URL : http://localhost:3000/scrap?url=http://www.example.com
+	METHOD : GET
 
-* Database initialization
+2. Endpont to list the urls and content stored in the database
 
-* How to run the test suite
+	URL : http://localhost:3000/list
+	METHOD : GET
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
 
-* ...
